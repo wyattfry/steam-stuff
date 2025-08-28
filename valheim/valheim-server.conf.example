@@ -1,0 +1,20 @@
+# Valheim Dedicated Server Configuration
+# Copy this to valheim-server.conf and edit as needed
+
+# Server Identity - CHANGE THESE!
+SERVER_NAME="MyValheimServer"
+SERVER_PASSWORD="change-this-password"  # MUST be 5+ characters!
+WORLD_NAME="MyWorld"
+
+# Network Settings  
+SERVER_PORT="2456"
+SERVER_PUBLIC="1"  # 1 = public, 0 = private
+CROSSPLAY_ENABLED="0"  # 1 = enabled, 0 = disabled (recommended for LAN)
+
+# Paths (usually don't need to change)
+SERVER_DIR="$HOME/Steam/steamapps/common/Valheim dedicated server"
+STEAMCMD_DIR="$HOME/steamcmd"
+LOG_FILE="/tmp/valheim-server.log"
+
+# Process Management
+PID_FILE="/tmp/valheim-server.pid"
